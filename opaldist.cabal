@@ -49,11 +49,27 @@ executable opaldist
   hs-source-dirs:      src
   -- .hs or .lhs file containing the Main module.
   main-is:             Main.hs
-  
+
   -- Modules included in this executable, other than Main.
   -- other-modules:       
-  
+
   -- Other library packages from which modules are imported.
   build-depends:       base ==4.6.*,
                        fgl >=5.4
-  
+
+executable opaldisthttp
+  hs-source-dirs:      src
+  -- .hs or .lhs file containing the Main module.
+  main-is:             Server.hs
+
+  -- Modules included in this executable, other than Main.
+  -- other-modules:       
+
+  -- Other library packages from which modules are imported.
+  build-depends:       base ==4.6.*,
+                       bytestring >=0.10,
+                       fgl >=5.4,
+                       http-types >=0.8,
+                       text >=0.11,
+                       wai >=2.0,
+                       warp >=2.0
