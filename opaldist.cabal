@@ -22,7 +22,7 @@ version:             0.1.0
 homepage:            https://github.com/mzhou/opaldist
 
 -- The license under which the package is released.
-license:             AllRightsReserved
+license:             OtherLicense
 
 -- The file containing the license text.
 license-file:        LICENSE
