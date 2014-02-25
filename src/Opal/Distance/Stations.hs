@@ -4,7 +4,7 @@ module Opal.Distance.Stations (
 ) where
 
 data Station
-    = Atarmon
+    = Artarmon
     | Ashfield
     | Asquith
     | Auburn
