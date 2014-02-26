@@ -135,7 +135,7 @@ hornsbyWynyardDists = [
     (Waverton, 4100),
     (Wollstonecraft, 5130),
     (StLeonards, 6380),
-    (Atarmon, 8290),
+    (Artarmon, 8290),
     (Chatswood, 9640),
     (Roseville, 11270),
     (Lindfield, 12570),
