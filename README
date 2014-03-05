@@ -1,6 +1,0 @@
-Install Haskell Platform
-cabal update
-git clone git://github.com/mzhou/opaldist.git
-cd opaldist
-cabal install
-./dist/build/opaldisthttp/opaldisthttp
