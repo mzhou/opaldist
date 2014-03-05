@@ -315,7 +315,7 @@ hornsbyCentralDists = [
     (Lindfield, 44530),
     (Roseville, 45830),
     (Chatswood, 47460),
-    (Atarmon, 48810),
+    (Artarmon, 48810),
     (StLeonards, 50720),
     (Wollstonecraft, 51970),
     (Waverton, 53000),
