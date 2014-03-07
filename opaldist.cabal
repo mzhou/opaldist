@@ -49,7 +49,8 @@ library
   exposed-modules:     Opal.Distance,
                        Opal.Distance.Calc,
                        Opal.Distance.Stations,
-                       Opal.Distance.Tracks
+                       Opal.Distance.Tracks,
+                       Opal.Distance.Units
   build-depends:       base >=4.6,
                        fgl >=5.4
 
