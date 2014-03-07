@@ -54,7 +54,7 @@ executable opaldist
   -- other-modules:       
 
   -- Other library packages from which modules are imported.
-  build-depends:       base ==4.6.*,
+  build-depends:       base >=4.6,
                        fgl >=5.4
 
 executable opaldisthttp
@@ -66,7 +66,7 @@ executable opaldisthttp
   -- other-modules:       
 
   -- Other library packages from which modules are imported.
-  build-depends:       base ==4.6.*,
+  build-depends:       base >=4.6,
                        bytestring >=0.10,
                        fgl >=5.4,
                        http-types >=0.8,
