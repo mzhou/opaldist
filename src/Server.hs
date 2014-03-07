@@ -7,14 +7,13 @@ import Network.Wai (pathInfo, responseLBS)
 import Network.Wai.Handler.Warp (run)
 import System.Environment (getArgs)
 
-import Opal.Distance.Stations (Station)
-import Opal.Distance.Calc (fareDistance)
+import Opal.Distance
 
 application request = let
     (_:orig:dest:_) = map unpack $ pathInfo request
     in
     return $ responseLBS status200 [("Content-Type", "text/plain;charset=utf-8"), ("Access-Control-Allow-Origin", "*")] $ pack $
-        show $ fareDistance ((read orig) :: Station) ((read dest) :: Station)
+        show $ trackDistance ((read orig) :: Station) ((read dest) :: Station)
 
 main = do
     [port] <- getArgs

@@ -44,6 +44,14 @@ build-type:          Simple
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.8
 
+library
+  hs-source-dirs:      src
+  exposed-modules:     Opal.Distance,
+                       Opal.Distance.Calc,
+                       Opal.Distance.Stations,
+                       Opal.Distance.Tracks
+  build-depends:       base >=4.6,
+                       fgl >=5.4
 
 executable opaldist
   hs-source-dirs:      src

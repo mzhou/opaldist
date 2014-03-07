@@ -1,8 +1,7 @@
 import System.Environment (getArgs)
 
-import Opal.Distance.Stations (Station)
-import Opal.Distance.Calc (fareDistance)
+import Opal.Distance
 
 main = do
     (orig:dest:_) <- getArgs
-    putStrLn $ show $ fareDistance ((read orig) :: Station) ((read dest) :: Station)
+    putStrLn $ show $ trackDistance ((read orig) :: Station) ((read dest) :: Station)
