@@ -17,5 +17,5 @@ application request = let
         show $ fareDistance ((read orig) :: Station) ((read dest) :: Station)
 
 main = do
-  [port] <- getArgs
-  run (read port :: Int) application
+    [port] <- getArgs
+    run (read port) application
