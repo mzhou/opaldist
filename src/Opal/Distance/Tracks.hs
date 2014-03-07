@@ -3,8 +3,8 @@ module Opal.Distance.Tracks where
 import Data.Graph.Inductive.Graph
 
 import Opal.Distance.Stations
+import Opal.Distance.Units
 
-type Metres = Int
 type Dist = (Station, Metres)
 type Track = LEdge Metres
 
