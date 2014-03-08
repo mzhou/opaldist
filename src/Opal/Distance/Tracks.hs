@@ -197,6 +197,7 @@ clydeCarlingfordDists = [
     (Central, 0),
     (Clyde, 20640),
     (Rosehill, 22370),
+    (Camellia, 22910),
     (Rydalmere, 24020),
     (Dundas, 24820),
     (Telopea, 26330),
